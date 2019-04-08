@@ -1,0 +1,211 @@
+body html {
+	background-image: background.png;
+}
+
+
+.container {
+	display:grid;
+	grid-template-columns: minmax(100px, 322px);
+	grid-template-rows: auto, auto, 1fr;
+	justify-content: center;
+}
+
+.menu {
+	text-align:center;
+}
+
+.house {
+	border: 5px solid #000000;
+}
+
+
+.container2 {
+	display:grid;
+	grid-template-columns: 3fr 2fr;
+	grid-template-rows: 515px;
+	width: 900px;
+}
+.about {
+	grid-column: 1/2;
+	grid-row: 1/2 ;
+	background-color: #B4E4FF;
+	border: 1px solid #000000;
+}
+.self {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-color: #B4E4FF;
+	font-size: 25px;
+}
+
+.title {
+	border: 1px solid #000000;
+	text-align: center;
+	background-color: #B4E4FF;
+	font-size: 20px;
+}
+
+.blurry {
+	position: absolute;
+	left: 500px;
+	top: 450px;
+}
+.subcon {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 500px 500px;
+	justify-content: center;
+	margin: 20px;
+}
+.questionleft {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-color:#B4E4FF;
+	margin:20px;
+	border: 1px solid #000000;
+	text-align:center;
+}
+.questionright {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	background-color:#B4E4FF;
+	margin:20px;
+	border: 1px solid #000000;
+	text-align:center;
+}
+.questionbot {
+	grid-column: 1/4;
+	grid-row: 2/3;
+	background-color:#B4E4FF;
+	margin:80px;
+	border: 1px solid #000000;
+	text-align:center;
+}
+.titles {
+	border: 1px solid #000000;
+	text-align: center;
+	font-size: 20px;
+	width: 400px;
+	background-color:white;
+	margin:20px;
+}
+.titless {
+	border: 1px solid #000000;
+	text-align: center;
+	font-size: 20px;
+	width: 400px;
+	background-color:white;
+	margin:70px;
+}
+
+.subconn {
+	display:grid;
+	grid-template-columns:	1fr;
+	grid-template-rows: 200px 50px 300px 50px 200px;
+	margin:20px;
+	justify-content: center;
+}
+.what {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background-color:#B4E4FF;
+	border: 1px solid #000000;
+	text-align: center;
+	margin: 20px;
+}
+.ex {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	background-color: #B4E4FF;
+	border: 1px solid #000000;
+	text-align: center;
+	margin: 2px;
+}
+.mine {
+	grid-column: 1/2;
+	grid-row: 4/5;
+	background-color: #B4E4FF;
+	border: 1px solid #000000;
+	text-align: center;
+}
+.reason {
+	grid-column: 1/2;
+	grid-row: 5/6;
+	background-color: #B4E4FF;
+	border: 1px solid #000000;
+	text-align: center;
+	margin: 20px;
+}
+.subconnn {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 300px;
+	justify-content: center;
+	text-align: center;
+}
+.pink {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.panel {
+	background-color: #B4E4FF;
+	color:#000000;
+	padding: 20px;
+	
+}
+
+.gallery {
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+
+	img {
+		border: 1px solid #000000;
+	}
+
+	ul {
+	list-style-type: none;
+	margin: 1;
+	padding: 0;
+	overflow: hidden;
+	background-color: skyblue;
+	border: 1px solid #000000;
+
+	}
+
+	li {
+	float: left;
+	text-align: center;
+ 	border-bottom: 0px solid #000000;
+
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+	background-color: #B4E4FF;
+	}
+
+	.active {
+	background-color: #B4E4FF;
+	}
+
+	a:link {
+	color: white;
+	}
+
+	a:visited {
+	color: white;
+	}
+
+	a:hover {
+	color: white;
+
